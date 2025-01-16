@@ -1,0 +1,36 @@
+name: store_admin_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluent_ui: ^4.10.0
+  flutter_adaptive_scaffold: ^0.3.1
+  printing: ^5.13.4
+  path_provider: ^2.1.5
+  htmltopdfwidgets: ^1.0.6
+  pdf: ^3.11.1
+  google_fonts: ^6.2.1
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/noti_sound.mp3
+  fonts:
+    - family: NanumGothic
+      fonts:
+        - asset: fonts/NanumGothic-Regular.ttf
+    - family: NotoEmoji
+      fonts:
+        - asset: fonts/NotoEmoji-VariableFont_wght.ttf
